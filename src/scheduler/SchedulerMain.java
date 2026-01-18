@@ -22,6 +22,9 @@ public class SchedulerMain{
 	
 	public SchedulerMain() {
 		
+		//loading input data
+		new inputdata().takeinput();
+		
 		//printing input data (on console for testing)
 		Utility.printInputData();
 		
